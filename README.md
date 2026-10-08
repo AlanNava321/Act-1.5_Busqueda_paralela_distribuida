@@ -4,16 +4,13 @@ Este proyecto implementa un sistema de busqueda paralela en C++ utilizando memor
 
 ## Contenido del Repositorio
 
-- `busqueda_local.cpp`: Codigo fuente principal del programa.
+- `busqueda.cpp`: Codigo fuente principal del programa.
 - `.gitignore`: Archivo para omitir temporales, ejecutables y logs.
 
 ## Requisitos
 
-- Compilador de C++ (g++ o clang) con soporte para OpenMP.
+- Compilador de C++
 
 ## Compilacion
 
-Para compilar el programa ejecutando optimizaciones y activando OpenMP:
-
-```bash
-g++ -O3 -fopenmp busqueda_local.cpp -o busqueda_local
+Para compilar el programa hay que utilizar la bandera -fopenmp
